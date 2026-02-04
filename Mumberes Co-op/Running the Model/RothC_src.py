@@ -206,7 +206,7 @@ def decomp(timeFact, DPM,RPM,BIO,HUM, IOM, SOC, DPM_Rage, RPM_Rage, \
 
 def RothC(timeFact, DPM,RPM,BIO,HUM,IOM, SOC, DPM_Rage, RPM_Rage, BIO_Rage, HUM_Rage, \
                Total_Rage, modernC, clay, depth,TEMP,RAIN,PEVAP,PC,DPM_RPM, \
-                C_Inp, FYM_Inp, SWC): 
+                C_Inp, FYM_Inp, SWC, trm): 
             
      
 # Calculate RMFs     
@@ -215,7 +215,7 @@ def RothC(timeFact, DPM,RPM,BIO,HUM,IOM, SOC, DPM_Rage, RPM_Rage, BIO_Rage, HUM_
     RM_PC = RMF_PC(PC)
 
 # Combine RMF's into one.      
-    RateM = RM_TMP*RM_Moist*RM_PC
+    RateM = RM_TMP*RM_Moist*RM_PC * trm
       
     decomp(timeFact, DPM,RPM,BIO,HUM, IOM, SOC, DPM_Rage, RPM_Rage, BIO_Rage, HUM_Rage, Total_Rage, modernC, RateM, clay, C_Inp, FYM_Inp, DPM_RPM)
     
