@@ -46,7 +46,7 @@ def run_ER_by_crop(
 	print(f"Bolinder C-inp for {crop_type} (of {coop} coop.): {c_in:.3f} t/ha")
 	
 	bolinder_c_in = c_in
-
+	
 
 	#######################################
 	### MAINTENANCE C-INPUT CALCULATION ###
@@ -74,8 +74,8 @@ def run_ER_by_crop(
 	)
 
 
-	#print(f"Maintenance C-inp: {maintenance_c_in:.3f} t/ha")
-	#print(f"Baseline SOC: {baseline_soc:.3f} t/ha")
+	print(f"Maintenance C-inp: {maintenance_c_in:.3f} t/ha")
+	print(f"Baseline SOC: {baseline_soc:.3f} t/ha")
 
 	c_in_applied = maintenance_c_in
 
@@ -118,7 +118,7 @@ def run_ER_by_crop(
 		evap=[80, 80, 88, 82, 75, 63, 57, 60, 69, 80, 77, 77],
 		pc = [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
 		dpm_rpm = 1.44,
-		carbon_input = bolinder_c_in,			 # annual input
+		carbon_input = bolinder_c_in + 10,			 # annual input
 		farmyard_manure = manure,
 		carbon_input_eqm = None,		  # annual input
 		farmyard_manure_eqm = manure,	   # annual input
