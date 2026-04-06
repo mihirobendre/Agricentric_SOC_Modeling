@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="anm_eor" name="anm_eor">
+      <SimpleField name="Name" type="string"/>
+      <SimpleField name="Sample Type" type="string"/>
+      <SimpleField name="Analysis Name" type="string"/>
+      <SimpleField name="Sample_Code" type="string"/>
+      <SimpleField name="Client Name" type="string"/>
+      <SimpleField name="Farm Name" type="string"/>
+      <SimpleField name="field_6" type="string"/>
+      <SimpleField name="Cooperative" type="string"/>
+      <SimpleField name="y" type="float"/>
+      <SimpleField name="x" type="float"/>
+      <SimpleField name="Crop" type="string"/>
+      <SimpleField name="Depth" type="string"/>
+      <SimpleField name="Condition" type="string"/>
+      <SimpleField name="Comments" type="string"/>
+      <SimpleField name="C (%)" type="float"/>
+      <SimpleField name="%Sand (%)" type="float"/>
+      <SimpleField name="%Silt (%)" type="float"/>
+      <SimpleField name="BD (g/cm3)" type="float"/>
+      <SimpleField name="%Clay (%)" type="float"/>
+      <SimpleField name="FAO Soil Type" type="string"/>
+    </Schema>
+    <Schema id="anm_eor.schema">
+      <SimpleField name="Sample Typ" type="string"/>
+      <SimpleField name="Analysis N" type="string"/>
+      <SimpleField name="Sample_Cod" type="string"/>
+      <SimpleField name="Client Nam" type="string"/>
+      <SimpleField name="Farm Name" type="string"/>
+      <SimpleField name="field_6" type="string"/>
+      <SimpleField name="Field Name" type="string"/>
+      <SimpleField name="Cooperativ" type="string"/>
+      <SimpleField name="y" type="float"/>
+      <SimpleField name="x" type="float"/>
+      <SimpleField name="Crop" type="string"/>
+      <SimpleField name="Depth" type="string"/>
+      <SimpleField name="Condition" type="string"/>
+      <SimpleField name="Comments" type="string"/>
+      <SimpleField name="C (%)" type="float"/>
+      <SimpleField name="%Sand (%)" type="float"/>
+      <SimpleField name="%Silt (%)" type="float"/>
+      <SimpleField name="BD (g/cm3)" type="float"/>
+      <SimpleField name="%Clay (%)" type="float"/>
+      <SimpleField name="FAO Soil T" type="string"/>
+    </Schema>
+    <Document id="anm_eor">
+      <name>anm_eor</name>
+      <Placemark id="anm_eor.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0103</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">ANn04</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.869530000000000</SimpleData>
+            <SimpleData name="x">35.887169999999998</SimpleData>
+            <SimpleData name="Crop">Corn</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">3.860000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">21.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">37.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">1.010000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0105</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">ANn06</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.868930000000000</SimpleData>
+            <SimpleData name="x">35.889029999999998</SimpleData>
+            <SimpleData name="Crop">No crop</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.790000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">23.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">35.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">1.060000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0111</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE50</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.851360000000000</SimpleData>
+            <SimpleData name="x">35.896189999999997</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">6.210000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">25.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">33.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.930000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0112</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE51</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.837190000000000</SimpleData>
+            <SimpleData name="x">35.886080000000000</SimpleData>
+            <SimpleData name="Crop">Cabbage</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">5.410000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">27.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">35.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.870000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">36.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0113</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE52</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.840260000000000</SimpleData>
+            <SimpleData name="x">35.895930000000000</SimpleData>
+            <SimpleData name="Crop">Peas</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">3.000000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">23.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">29.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">1.050000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">46.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0114</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE53</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.846350000000000</SimpleData>
+            <SimpleData name="x">35.892749999999999</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.500000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">27.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">29.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.900000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">42.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0115</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE54</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.842420000000000</SimpleData>
+            <SimpleData name="x">35.892620000000001</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">3.460000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">23.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">31.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.960000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">44.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0116</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">EE55</SimpleData>
+            <SimpleData name="Cooperativ">Eor Emayian</SimpleData>
+            <SimpleData name="y">-0.841470000000000</SimpleData>
+            <SimpleData name="x">35.892580000000002</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.200000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">21.600000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">35.600000000000001</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.950000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">42.799999999999997</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0,0,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0171</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L57</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.794330000000000</SimpleData>
+            <SimpleData name="x">35.893799999999999</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.620000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">29.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">34.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.930000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">36.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.8938,-0.79433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0172</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L58</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.787860000000000</SimpleData>
+            <SimpleData name="x">35.890419999999999</SimpleData>
+            <SimpleData name="Crop">Corn</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.890000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">29.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">30.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.900000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.89042,-0.78786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0173</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L59</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.782420000000000</SimpleData>
+            <SimpleData name="x">35.892130000000002</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.190000000000001</SimpleData>
+            <SimpleData name="%Sand (%)">25.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">34.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.960000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.89213,-0.78242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0174</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L60</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.782670000000000</SimpleData>
+            <SimpleData name="x">35.893000000000001</SimpleData>
+            <SimpleData name="Crop">Corn</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.240000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">31.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">26.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">1.050000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">42.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.893,-0.78267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0175</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L61</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.774190000000000</SimpleData>
+            <SimpleData name="x">35.891030000000001</SimpleData>
+            <SimpleData name="Crop">Potato</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">5.540000000000000</SimpleData>
+            <SimpleData name="%Sand (%)">27.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">32.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">0.950000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.89103,-0.77419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="anm_eor.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#anm_eor.schema">
+            <SimpleData name="Sample Typ">Soil Analysis</SimpleData>
+            <SimpleData name="Analysis N">Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis</SimpleData>
+            <SimpleData name="Sample_Cod">CR442SA0176</SimpleData>
+            <SimpleData name="Client Nam">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Farm Name">Regenerative carbon Alliance</SimpleData>
+            <SimpleData name="Field Name">L62</SimpleData>
+            <SimpleData name="Cooperativ">Lanyuak</SimpleData>
+            <SimpleData name="y">-0.769920000000000</SimpleData>
+            <SimpleData name="x">35.888689999999997</SimpleData>
+            <SimpleData name="Crop">Onion, Arrowroots</SimpleData>
+            <SimpleData name="Depth">Top Soil</SimpleData>
+            <SimpleData name="Condition">Moist</SimpleData>
+            <SimpleData name="C (%)">4.320000000000001</SimpleData>
+            <SimpleData name="%Sand (%)">27.300000000000001</SimpleData>
+            <SimpleData name="%Silt (%)">32.000000000000000</SimpleData>
+            <SimpleData name="BD (g/cm3)">1.070000000000000</SimpleData>
+            <SimpleData name="%Clay (%)">40.700000000000003</SimpleData>
+            <SimpleData name="FAO Soil T">ANm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            35.88869,-0.76992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
