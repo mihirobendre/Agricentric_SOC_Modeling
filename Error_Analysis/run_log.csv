@@ -1,0 +1,175 @@
+Sample_Code,Cooperative,FAO_type,Crop_raw,param_source,clay_pct,SOC_tCha,BD_gcm3,BD_was_imputed,crop_yield,param_note,output_file
+CR442SA0237,Lanyuak,ANm,Potato,Potato,42.7,87.314,0.9767,True,20.2343,,CR442SA0237.csv
+CR442SA0238,Eor Emayian,ANm,Potato,Potato,44.7,79.426,0.9663,True,4.448,,CR442SA0238.csv
+CR442SA0239,Mumberes,NTu,Corn,Maize,48.7,157.106,1.0208,True,7.413,,CR442SA0239.csv
+CR442SA0240,Mumberes,NTu,Corn,Maize,56.7,157.106,1.0208,True,7.413,,CR442SA0240.csv
+CR442SA0241,Mumberes,NTu,Potato,Potato,58.7,129.237,1.0208,True,4.448,,CR442SA0241.csv
+CR442SA0242,Mumberes,NTu,Potato,Potato,56.7,142.713,1.0208,True,4.448,,CR442SA0242.csv
+CR442SA0243,Mumberes,NTu,Corn,Maize,62.7,97.387,1.0208,True,7.413,,CR442SA0243.csv
+CR442SA0244,Mumberes,NTu,Peas,Beans,64.7,115.456,1.0208,True,0.526,Beans proxy: Lanyuak Barley params (no Beans in Mumberes NTu block),CR442SA0244.csv
+CR442SA0245,Mumberes,NTu,Irish Potato,Potato,64.7,116.987,1.0208,True,4.448,,CR442SA0245.csv
+CR442SA0246,Mumberes,NTu,Corn,Maize,64.7,145.162,1.0208,True,7.413,,CR442SA0246.csv
+CR442SA0247,Mumberes,NTu,No crop,stratum_avg,52.7,89.731,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0247.csv
+CR442SA0248,Mumberes,NTu,Corn,Maize,52.7,127.706,1.0208,True,7.413,,CR442SA0248.csv
+CR442SA0249,Mumberes,NTu,Corn,Maize,56.7,174.869,1.0208,True,7.413,,CR442SA0249.csv
+CR442SA0250,Mumberes,NTu,Corn,Maize,58.7,96.775,1.0208,True,7.413,,CR442SA0250.csv
+CR442SA0251,Mumberes,NTu,Corn,Maize,70.7,129.544,1.0208,True,7.413,,CR442SA0251.csv
+CR442SA0252,Mumberes,NTu,Corn,Maize,62.7,182.831,1.0208,True,7.413,,CR442SA0252.csv
+CR442SA0253,Mumberes,NTu,Kale,stratum_avg,54.7,162.619,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0253.csv
+CR442SA0254,Mumberes,NTu,Kale,stratum_avg,68.7,132.3,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0254.csv
+CR442SA0255,Kabianga,NTu,Tea,Tea,52.7,233.663,1.005,True,18.73284,,CR442SA0255.csv
+CR442SA0256,Kabianga,NTu,Tea,Tea,68.7,168.84,1.005,True,18.73284,,CR442SA0256.csv
+CR442SA0257,Kabianga,NTu,Tea,Tea,60.7,148.037,1.005,True,18.73284,,CR442SA0257.csv
+CR442SA0258,Kabianga,NTu,Tea,Tea,62.7,159.192,1.005,True,18.73284,,CR442SA0258.csv
+CR442SA0259,Kabianga,NTu,Tea,Tea,46.7,268.335,1.005,True,18.73284,,CR442SA0259.csv
+CR442SA0260,Kabianga,NTu,Tea,Tea,56.7,155.574,1.005,True,18.73284,,CR442SA0260.csv
+CR442SA0261,Kabianga,NTu,Tea,Tea,56.7,128.439,1.005,True,18.73284,,CR442SA0261.csv
+CR442SA0262,Kabianga,NTu,Kale,stratum_avg,52.7,132.358,1.005,True,13.07292,Stratum average: mean of Tea and Maize params,CR442SA0262.csv
+CR442SA0263,Kipsigis,NTu,Tea,Tea,54.7,146.486,1.0875,True,20.75688,,CR442SA0263.csv
+CR442SA0264,Kipsigis,NTu,No crop,stratum_avg,68.7,94.612,1.0875,True,20.75688,Stratum average == Tea params (only defined crop in Kipsigis),CR442SA0264.csv
+CR442SA0265,Kabianga,NTu,No crop,stratum_avg,62.7,113.665,1.005,True,13.07292,Stratum average: mean of Tea and Maize params,CR442SA0265.csv
+CR442SA0266,Kabianga,NTu,Tea,Tea,66.7,129.344,1.005,True,18.73284,,CR442SA0266.csv
+CR442SA0267,Kabianga,NTu,No crop,stratum_avg,32.7,38.592,1.005,True,13.07292,Stratum average: mean of Tea and Maize params,CR442SA0267.csv
+CR442SA0268,Kabianga,NTu,Tea,Tea,62.7,97.083,1.005,True,18.73284,,CR442SA0268.csv
+CR442SA0269,Eor Emayian,ANm,Corn,Maize,36.7,75.947,0.9663,True,2.8911,,CR442SA0269.csv
+CR442SA0096,Eor Emayian,ANm,No crop,stratum_avg,42.8,104.065,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0096.csv
+CR442SA0097,Eor Emayian,ANm,No crop,stratum_avg,44.8,87.832,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0097.csv
+CR442SA0098,Eor Emayian,ANm,"Avocado,peas,beans",stratum_avg,38.8,157.692,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0098.csv
+CR442SA0099,Eor Emayian,ANm,Maize,Maize,44.8,100.297,0.9663,True,2.8911,,CR442SA0099.csv
+CR442SA0100,Eor Emayian,ANm,Beetroot,stratum_avg,30.8,142.039,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0100.csv
+CR442SA0101,Eor Emayian,ANm,No crop,stratum_avg,44.8,86.673,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0101.csv
+CR442SA0102,Eor Emayian,ANm,No crop,stratum_avg,42.8,96.239,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0102.csv
+CR442SA0103,Eor Emayian,ANm,Corn,Maize,40.8,116.958,1.01,False,2.8911,,CR442SA0103.csv
+CR442SA0104,Eor Emayian,ANm,No crop,stratum_avg,40.8,115.66,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0104.csv
+CR442SA0105,Eor Emayian,ANm,No crop,stratum_avg,40.8,152.322,1.06,False,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0105.csv
+CR442SA0106,Eor Emayian,ANm,Potato,Potato,34.8,152.474,0.9663,True,4.448,,CR442SA0106.csv
+CR442SA0107,Eor Emayian,ANm,No crop,stratum_avg,42.8,109.573,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0107.csv
+CR442SA0108,Eor Emayian,ANm,No crop,stratum_avg,54.8,71.599,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0108.csv
+CR442SA0109,Eor Emayian,ANm,No crop,stratum_avg,34.8,75.947,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0109.csv
+CR442SA0110,Eor Emayian,ANm,No crop,stratum_avg,42.8,76.527,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0110.csv
+CR442SA0111,Eor Emayian,ANm,Potato,Potato,40.8,173.259,0.93,False,4.448,,CR442SA0111.csv
+CR442SA0112,Eor Emayian,ANm,Cabbage,stratum_avg,36.8,141.201,0.87,False,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0112.csv
+CR442SA0113,Eor Emayian,ANm,Peas,Beans,46.8,94.5,1.05,False,0.526,Beans proxy: Lanyuak Barley params (no Beans block in Eor),CR442SA0113.csv
+CR442SA0114,Eor Emayian,ANm,Potato,Potato,42.8,121.5,0.9,False,4.448,,CR442SA0114.csv
+CR442SA0115,Eor Emayian,ANm,Potato,Potato,44.8,99.648,0.96,False,4.448,,CR442SA0115.csv
+CR442SA0116,Eor Emayian,ANm,Potato,Potato,42.8,119.7,0.95,False,4.448,,CR442SA0116.csv
+CR442SA0117,Eor Emayian,ANm,Potato,Potato,40.8,80.585,0.9663,True,4.448,,CR442SA0117.csv
+CR442SA0118,Eor Emayian,ANm,Passion fruit,stratum_avg,38.8,97.398,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0118.csv
+CR442SA0119,Eor Emayian,ANm,Corn,Maize,36.8,85.223,0.9663,True,2.8911,,CR442SA0119.csv
+CR442SA0120,Eor Emayian,ANm,Potato,Potato,40.8,130.154,0.9663,True,4.448,,CR442SA0120.csv
+CR442SA0121,Eor Emayian,ANm,Potato,Potato,36.8,95.659,0.9663,True,4.448,,CR442SA0121.csv
+CR442SA0122,Eor Emayian,ANm,No crop,stratum_avg,40.8,110.153,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0122.csv
+CR442SA0123,Eor Emayian,ANm,Potato,Potato,36.8,92.18,0.9663,True,4.448,,CR442SA0123.csv
+CR442SA0124,Eor Emayian,ANm,Cabbage,stratum_avg,32.8,123.197,0.9663,True,2.6217,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0124.csv
+CR442SA0125,Eor Emayian,ANm,Potato,Potato,36.8,127.835,0.9663,True,4.448,,CR442SA0125.csv
+CR442SA0126,Kabianga,NTu,Tea,Tea,50.8,202.306,1.005,True,18.73284,,CR442SA0126.csv
+CR442SA0127,Kabianga,NTu,Tea,Tea,58.8,132.66,1.005,True,18.73284,,CR442SA0127.csv
+CR442SA0128,Kabianga,NTu,Tea,Tea,62.8,140.499,1.005,True,18.73284,,CR442SA0128.csv
+CR442SA0129,Kabianga,NTu,Tea,Tea,62.8,166.126,1.005,True,18.73284,,CR442SA0129.csv
+CR442SA0130,Kabianga,NTu,Tea,Tea,58.8,126.931,1.005,True,18.73284,,CR442SA0130.csv
+CR442SA0131,Kabianga,NTu,Tea,Tea,74.76,104.922,1.005,True,18.73284,,CR442SA0131.csv
+CR442SA0132,Kabianga,NTu,Tea,Tea,62.8,122.711,1.005,True,18.73284,,CR442SA0132.csv
+CR442SA0133,Kabianga,NTu,Tea,Tea,50.8,266.828,1.005,True,18.73284,,CR442SA0133.csv
+CR442SA0134,Kabianga,NTu,Tea,Tea,56.8,169.745,1.005,True,18.73284,,CR442SA0134.csv
+CR442SA0135,Kabianga,NTu,Tea,Tea,50.8,154.98,0.9,False,18.73284,,CR442SA0135.csv
+CR442SA0136,Kabianga,NTu,Tea,Tea,58.8,119.274,1.03,False,18.73284,,CR442SA0136.csv
+CR442SA0137,Kabianga,NTu,Tea,Tea,66.8,64.152,0.81,False,18.73284,,CR442SA0137.csv
+CR442SA0138,Kabianga,NTu,Tea,Tea,64.8,117.72,1.09,False,18.73284,,CR442SA0138.csv
+CR442SA0139,Kabianga,NTu,Tea,Tea,54.8,108.891,1.09,False,18.73284,,CR442SA0139.csv
+CR442SA0140,Kabianga,NTu,Tea,Tea,52.8,205.794,1.11,False,18.73284,,CR442SA0140.csv
+CR442SA0141,Kabianga,NTu,Tea,Tea,60.8,115.776,1.005,True,18.73284,,CR442SA0141.csv
+CR442SA0142,Kabianga,NTu,Tea,Tea,52.8,106.731,1.005,True,18.73284,,CR442SA0142.csv
+CR442SA0143,Kabianga,NTu,Tea,Tea,56.8,138.992,1.005,True,18.73284,,CR442SA0143.csv
+CR442SA0144,Kabianga,NTu,Corn,Maize,48.8,175.172,1.005,True,7.413,Kabianga Maize: using Mumberes NTu yield (no Kabianga Maize block defined),CR442SA0144.csv
+CR442SA0145,Kabianga,NTu,Corn,Maize,62.8,117.284,1.005,True,7.413,Kabianga Maize: using Mumberes NTu yield (no Kabianga Maize block defined),CR442SA0145.csv
+CR442SA0146,Kabianga,NTu,Tea,Tea,60.8,121.505,1.005,True,18.73284,,CR442SA0146.csv
+CR442SA0147,Kabianga,NTu,Corn,Maize,64.8,125.424,1.005,True,7.413,Kabianga Maize: using Mumberes NTu yield (no Kabianga Maize block defined),CR442SA0147.csv
+CR442SA0148,Kabianga,NTu,Kale,stratum_avg,60.8,170.951,1.005,True,13.07292,Stratum average: mean of Tea and Maize params,CR442SA0148.csv
+CR442SA0149,Kipsigis,NTu,Tea,Tea,52.8,148.944,1.16,False,20.75688,,CR442SA0149.csv
+CR442SA0150,Kipsigis,NTu,Tea,Tea,48.8,124.527,1.03,False,20.75688,,CR442SA0150.csv
+CR442SA0151,Kipsigis,NTu,"Tea, Sweet potato",stratum_avg,56.8,85.428,1.13,False,20.75688,Stratum average == Tea params (only defined crop in Kipsigis),CR442SA0151.csv
+CR442SA0152,Kipsigis,NTu,Tea,Tea,48.8,186.945,1.03,False,20.75688,,CR442SA0152.csv
+CR442SA0153,Kipsigis,NTu,Tea,Tea,50.8,121.039,1.0875,True,20.75688,,CR442SA0153.csv
+CR442SA0154,Kipsigis,NTu,Tea,Tea,54.8,173.239,1.0875,True,20.75688,,CR442SA0154.csv
+CR442SA0155,Kipsigis,NTu,Kale,stratum_avg,58.8,138.982,1.0875,True,20.75688,Stratum average == Tea params (only defined crop in Kipsigis),CR442SA0155.csv
+CR442SA0156,Kipsigis,NTu,Tea,Tea,77.42,124.954,1.0875,True,20.75688,,CR442SA0156.csv
+CR442SA0157,Kipsigis,NTu,"Beans, tea",stratum_avg,62.8,125.606,1.0875,True,20.75688,Stratum average == Tea params (only defined crop in Kipsigis),CR442SA0157.csv
+CR442SA0158,Kipsigis,NTu,Tea,Tea,46.8,122.344,1.0875,True,20.75688,,CR442SA0158.csv
+CR442SA0159,Kipsigis,NTu,Tea,Tea,61.4,127.237,1.0875,True,20.75688,,CR442SA0159.csv
+CR442SA0160,Kipsigis,NTu,Tea,Tea,61.4,142.245,1.0875,True,20.75688,,CR442SA0160.csv
+CR442SA0161,Kipsigis,NTu,No crop,stratum_avg,44.8,122.996,1.0875,True,20.75688,Stratum average == Tea params (only defined crop in Kipsigis),CR442SA0161.csv
+CR442SA0162,Kipsigis,NTu,Tea,Tea,50.8,141.266,1.0875,True,20.75688,,CR442SA0162.csv
+CR442SA0163,Kipsigis,NTu,Tea,Tea,64.8,94.939,1.0875,True,20.75688,,CR442SA0163.csv
+CR442SA0164,Kipsigis,NTu,Tea,Tea,50.8,152.359,1.0875,True,20.75688,,CR442SA0164.csv
+CR442SA0165,Lanyuak,ANm,Canola,stratum_avg,40.8,85.556,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0165.csv
+CR442SA0166,Lanyuak,ANm,Avocado,stratum_avg,40.8,108.996,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0166.csv
+CR442SA0167,Lanyuak,ANm,Irish Potato,Potato,36.8,122.767,0.9767,True,20.2343,,CR442SA0167.csv
+CR442SA0168,Lanyuak,ANm,No crop,stratum_avg,38.8,141.519,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0168.csv
+CR442SA0169,Lanyuak,ANm,Irish Potato,Potato,42.8,112.805,0.9767,True,20.2343,,CR442SA0169.csv
+CR442SA0170,Lanyuak,ANm,Cabbage,stratum_avg,38.7,145.035,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0170.csv
+CR442SA0171,Lanyuak,ANm,Potato,Potato,36.7,128.898,0.93,False,20.2343,,CR442SA0171.csv
+CR442SA0172,Lanyuak,ANm,Corn,Maize,40.7,132.03,0.9,False,0.607,,CR442SA0172.csv
+CR442SA0173,Lanyuak,ANm,Potato,Potato,40.7,120.672,0.96,False,20.2343,,CR442SA0173.csv
+CR442SA0174,Lanyuak,ANm,Corn,Maize,42.7,133.56,1.05,False,0.607,,CR442SA0174.csv
+CR442SA0175,Lanyuak,ANm,Potato,Potato,40.7,157.89,0.95,False,20.2343,,CR442SA0175.csv
+CR442SA0176,Lanyuak,ANm,"Onion, Arrowroots",stratum_avg,40.7,138.672,1.07,False,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0176.csv
+CR442SA0177,Lanyuak,ANm,Corn,Maize,53.4,111.34,0.9767,True,0.607,,CR442SA0177.csv
+CR442SA0178,Lanyuak,ANm,No crop,stratum_avg,34.7,94.639,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0178.csv
+CR442SA0179,Lanyuak,ANm,Corn,Maize,37.4,136.245,0.9767,True,0.607,,CR442SA0179.csv
+CR442SA0180,Lanyuak,ANm,Corn,Maize,40.7,121.009,0.9767,True,0.607,,CR442SA0180.csv
+CR442SA0181,Lanyuak,ANm,No crop,stratum_avg,40.7,121.888,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0181.csv
+CR442SA0182,Lanyuak,ANm,Potato,Potato,30.7,99.327,0.9767,True,20.2343,,CR442SA0182.csv
+CR442SA0183,Lanyuak,ANm,Potato,Potato,38.7,151.774,0.9767,True,20.2343,,CR442SA0183.csv
+CR442SA0184,Lanyuak,ANm,No crop,stratum_avg,42.7,104.015,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0184.csv
+CR442SA0185,Lanyuak,ANm,Beans,Beans,40.7,131.85,0.9767,True,0.526,Beans proxy: Barley params (same Lanyuak block),CR442SA0185.csv
+CR442SA0186,Lanyuak,ANm,No crop,stratum_avg,36.7,118.372,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0186.csv
+CR442SA0187,Lanyuak,ANm,Sunflower,stratum_avg,44.7,109.289,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0187.csv
+CR442SA0188,Lanyuak,ANm,Lucern,stratum_avg,42.7,133.315,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0188.csv
+CR442SA0189,Lanyuak,ANm,Potato,Potato,28.7,31.058,0.9767,True,20.2343,,CR442SA0189.csv
+CR442SA0190,Lanyuak,ANm,Corn,Maize,34.7,135.073,0.9767,True,0.607,,CR442SA0190.csv
+CR442SA0191,Lanyuak,ANm,No crop,stratum_avg,38.7,134.487,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0191.csv
+CR442SA0192,Lanyuak,ANm,Carrots,stratum_avg,42.7,101.671,0.9767,True,4.48386,"Stratum average: mean of Maize, Wheat, Barley, Potato, Beans params",CR442SA0192.csv
+CR442SA0193,Mumberes,NTu,No crop,stratum_avg,58.7,130.156,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0193.csv
+CR442SA0194,Mumberes,NTu,Beans,Beans,72.7,37.362,1.0208,True,0.526,Beans proxy: Lanyuak Barley params (no Beans in Mumberes NTu block),CR442SA0194.csv
+CR442SA0195,Mumberes,NTu,Kale,stratum_avg,58.7,99.225,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0195.csv
+CR442SA0196,Mumberes,NTh,Irish Potato,Potato,66.7,87.281,1.0208,True,4.448,,CR442SA0196.csv
+CR442SA0197,Mumberes,NTh,Corn,Maize,66.7,64.584,1.04,False,7.413,,CR442SA0197.csv
+CR442SA0198,Mumberes,NTu,Irish Potato,Potato,50.7,105.044,1.0208,True,4.448,,CR442SA0198.csv
+CR442SA0199,Mumberes,NTh,Irish Potato,Potato,62.7,135.362,1.0208,True,4.448,,CR442SA0199.csv
+CR442SA0200,Mumberes,NTh,Irish Potato,Potato,52.7,133.831,1.0208,True,4.448,,CR442SA0200.csv
+CR442SA0201,Mumberes,NTh,Grazing Land,stratum_avg,58.7,116.681,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0201.csv
+CR442SA0202,Mumberes,NTh,Peas,Beans,50.7,119.744,1.0208,True,0.526,Beans proxy: Lanyuak Barley params (no Beans in Mumberes NTh block),CR442SA0202.csv
+CR442SA0203,Mumberes,NTh,"Potato, grazing",stratum_avg,64.7,129.72,0.94,False,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0203.csv
+CR442SA0204,Mumberes,NTu,No crop,stratum_avg,42.7,218.662,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0204.csv
+CR442SA0205,Mumberes,NTu,Corn,Maize,68.7,106.881,1.0208,True,7.413,,CR442SA0205.csv
+CR442SA0206,Mumberes,NTu,Beetroot,stratum_avg,54.7,118.212,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0206.csv
+CR442SA0207,Mumberes,NTh,Grazing,stratum_avg,42.7,178.164,0.98,False,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0207.csv
+CR442SA0208,Mumberes,NTh,Irish Potato,Potato,68.7,109.331,1.0208,True,4.448,,CR442SA0208.csv
+CR442SA0209,Mumberes,NTu,Cabbage,stratum_avg,52.7,92.487,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0209.csv
+CR442SA0210,Mumberes,NTu,No crop,stratum_avg,48.7,210.394,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0210.csv
+CR442SA0211,Mumberes,NTu,Corn,Maize,66.7,105.656,1.0208,True,7.413,,CR442SA0211.csv
+CR442SA0212,Mumberes,NTu,Corn,Maize,62.7,102.594,1.0208,True,7.413,,CR442SA0212.csv
+CR442SA0213,Mumberes,NTh,Irish Potato,Potato,68.7,106.893,1.11,False,4.448,,CR442SA0213.csv
+CR442SA0214,Mumberes,NTh,Grazing,stratum_avg,60.7,79.5,1.0,False,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0214.csv
+CR442SA0215,Mumberes,NTu,Oat,stratum_avg,60.7,148.531,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0215.csv
+CR442SA0216,Mumberes,NTu,Irish Potato,Potato,58.7,96.163,1.0208,True,4.448,,CR442SA0216.csv
+CR442SA0217,Mumberes,NTu,Corn,Maize,56.7,135.056,1.0208,True,7.413,,CR442SA0217.csv
+CR442SA0218,Mumberes,NTu,Corn,Maize,40.7,198.144,1.0208,True,7.413,,CR442SA0218.csv
+CR442SA0219,Mumberes,NTh,Irish Potato,Potato,62.7,63.7,1.0208,True,4.448,,CR442SA0219.csv
+CR442SA0220,Mumberes,NTh,Irish Potato,Potato,48.7,221.544,1.02,False,4.448,,CR442SA0220.csv
+CR442SA0221,Mumberes,NTu,No crop,stratum_avg,50.7,105.962,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0221.csv
+CR442SA0222,Mumberes,NTu,Corn,Maize,68.7,175.203,1.03,False,7.413,,CR442SA0222.csv
+CR442SA0223,Mumberes,NTu,Potato,Potato,56.7,192.78,1.08,False,4.448,,CR442SA0223.csv
+CR442SA0224,Mumberes,NTu,Corn,Maize,64.7,131.381,1.0208,True,7.413,,CR442SA0224.csv
+CR442SA0225,Mumberes,NTu,Corn,Maize,64.7,118.519,1.0208,True,7.413,,CR442SA0225.csv
+CR442SA0226,Mumberes,NTu,Corn,Maize,70.7,106.602,1.09,False,7.413,,CR442SA0226.csv
+CR442SA0227,Mumberes,NTu,Corn,Maize,62.7,179.622,1.02,False,7.413,,CR442SA0227.csv
+CR442SA0228,Mumberes,NTu,Corn,Maize,68.72,112.394,1.0208,True,7.413,,CR442SA0228.csv
+CR442SA0229,Mumberes,NTu,No crop,stratum_avg,64.7,120.356,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0229.csv
+CR442SA0230,Mumberes,NTu,Potato,Potato,62.7,103.819,1.0208,True,4.448,,CR442SA0230.csv
+CR442SA0231,Mumberes,NTu,Corn,Maize,66.7,145.162,1.0208,True,7.413,,CR442SA0231.csv
+CR442SA0232,Mumberes,NTu,Corn,Maize,56.7,122.5,1.0208,True,7.413,,CR442SA0232.csv
+CR442SA0233,Mumberes,NTu,Corn,Maize,58.7,104.431,1.0208,True,7.413,,CR442SA0233.csv
+CR442SA0234,Mumberes,NTu,Corn,Maize,60.7,100.161,0.93,False,7.413,,CR442SA0234.csv
+CR442SA0235,Mumberes,NTu,Corn,Maize,60.7,174.831,1.01,False,7.413,,CR442SA0235.csv
+CR442SA0236,Mumberes,NTu,Tea,stratum_avg,66.7,130.463,1.0208,True,4.129,"Stratum average: mean of Maize, Potato, Beans params",CR442SA0236.csv

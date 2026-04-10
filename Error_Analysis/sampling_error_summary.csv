@@ -1,0 +1,14 @@
+,Value
+Total_project_area_ha,35369.27
+N_strata,3
+Strata,"ANm, NTh, NTu"
+N_points_loaded,174
+N_points_missing,0
+s2_model_used,0
+Note_s2_model,0.0 placeholder — replace with MVR Eq-64 value and re-run
+Yr1_Delta_bar_tCO2ehayr,
+Yr1_s_delta_bar_tCO2ehayr,0
+Yr1_U_pct,
+Yr1_exceeds_10pct,FALSE
+VP_yrs1to5_mean_U_pct,4.171
+VP_yrs1to5_max_U_pct,4.273
