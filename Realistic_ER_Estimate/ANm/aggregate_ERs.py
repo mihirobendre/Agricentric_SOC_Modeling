@@ -1,8 +1,22 @@
-
 from run_ERs import *
 
-master_df = pd.DataFrame()
+# ─────────────────────────────────────────────
+# Helper: append a crop's results into master_df
+# Each crop gets three columns with a shared prefix:
+#   "<Crop> - SOC Baseline (tCO2e/ha)"
+#   "<Crop> - SOC Project (tCO2e/ha)"
+#   "<Crop> - ERs (tCO2e/ha)"
+# ─────────────────────────────────────────────
+def add_crop(master_df, crop, results):
+    for col in results.columns:
+        master_df[f"{crop} - {col}"] = results[col].values
+    return master_df
 
+
+# ══════════════════════════════════════════════
+# Cooperative: Eor
+# ══════════════════════════════════════════════
+master_df = pd.DataFrame()
 coop = "Eor"
 
 crop = "Maize"
@@ -12,19 +26,18 @@ results = run_ER_by_crop(
     moist_content = 0.13,
     harvest_index = 0.48,
     rs_ratio = 0.1,
-	manure = 0.5,
-	clay_content = 40.190164,
-	soc_content = 113.941170,
-	bd_content = 0.970714,
-	fao_type = 'ANm',
-	coop = 'Eor',
-	S_P = 0,
-	S_S = 1,
-	S_R = 1,
-	S_E = 1
+    manure = 0.5,
+    clay_content = 40.190164,
+    soc_content = 113.941170,
+    bd_content = 0.970714,
+    fao_type = 'ANm',
+    coop = coop,
+    S_P = 0,
+    S_S = 1,
+    S_R = 1,
+    S_E = 1
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 crop = "Potato"
 results = run_ER_by_crop(
@@ -34,28 +47,25 @@ results = run_ER_by_crop(
     harvest_index = 0.75,
     rs_ratio = 0.2,
     manure = 0.5,
-	clay_content = 40.190164,
+    clay_content = 40.190164,
     soc_content = 113.941170,
     bd_content = 0.970714,
     fao_type = 'ANm',
-    coop = 'Eor',
-	S_P = 0,
+    coop = coop,
+    S_P = 0,
     S_S = 1,
     S_R = 1,
-    S_E = 0 
+    S_E = 0
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 master_df.to_excel(f"aggregate_{coop}_results.xlsx", index=False)
 
 
-
-
-
-
+# ══════════════════════════════════════════════
+# Cooperative: Lanyuak
+# ══════════════════════════════════════════════
 master_df = pd.DataFrame()
-
 coop = "Lanyuak"
 
 crop = "Maize"
@@ -74,11 +84,9 @@ results = run_ER_by_crop(
     S_P = 0,
     S_S = 1,
     S_R = 1,
-    S_E = 1 
+    S_E = 1
 )
-
-master_df[crop] = results
-
+master_df = add_crop(master_df, crop, results)
 
 crop = "Wheat"
 results = run_ER_by_crop(
@@ -96,11 +104,9 @@ results = run_ER_by_crop(
     S_P = 0,
     S_S = 1,
     S_R = 1,
-    S_E = 1 
+    S_E = 1
 )
-
-master_df[crop] = results
-
+master_df = add_crop(master_df, crop, results)
 
 crop = "Barley"
 results = run_ER_by_crop(
@@ -118,11 +124,9 @@ results = run_ER_by_crop(
     S_P = 0,
     S_S = 1,
     S_R = 1,
-    S_E = 1 
+    S_E = 1
 )
-
-master_df[crop] = results
-
+master_df = add_crop(master_df, crop, results)
 
 crop = "Potato"
 results = run_ER_by_crop(
@@ -142,17 +146,6 @@ results = run_ER_by_crop(
     S_R = 1,
     S_E = 0
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 master_df.to_excel(f"aggregate_{coop}_results.xlsx", index=False)
-
-
-
-
-
-
-
-
-
-

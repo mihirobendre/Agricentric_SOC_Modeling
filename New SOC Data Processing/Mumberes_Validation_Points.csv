@@ -1,0 +1,6 @@
+Sample Type,Analysis Name,Sample_Code,Client Name,Farm Name,field_6,Field Name,Cooperative,y,x,Crop,Depth,Condition,Comments,C (%),%Sand (%),%Silt (%),BD (g/cm3),%Clay (%),FAO Soil Type
+Soil Analysis,"Soil Organic Carbon (Dry Combustion) ,Soil Texture Analysis",CR442SA0196,Regenerative carbon Alliance,Regenerative carbon Alliance,,M53,Mumberes,0.0300843,35.5233864,Irish Potato,Top Soil,Moist,,2.85,13.3,20,,66.7,NTh
+Soil Analysis,"Soil Organic Carbon (Dry Combustion) ,Soil Texture Analysis",CR442SA0202,Regenerative carbon Alliance,Regenerative carbon Alliance,,M59,Mumberes,0.011879,35.526609,Peas,Top Soil,Moist,,3.91,19.3,30,,50.7,NTh
+Soil Analysis,"Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis",CR442SA0222,Regenerative carbon Alliance,Regenerative carbon Alliance,,MNTU18R,Mumberes,0.03339,35.57908,Corn,Top Soil,Moist,,5.67,15.3,16,1.03,68.7,NTu
+Soil Analysis,"Soil Organic Carbon (Dry Combustion) ,Soil Texture Analysis",CR442SA0228,Regenerative carbon Alliance,Regenerative carbon Alliance,,MNTU58R,Mumberes,-0.01336,35.62864,Corn,Top Soil,Moist,,3.67,9.28,22,,68.72,NTu
+Soil Analysis,"Soil Bulk Density,Soil Organic Carbon (Dry Combustion),Soil Texture Analysis",CR442SA0235,Regenerative carbon Alliance,Regenerative carbon Alliance,,MNTU81R,Mumberes,0.02947,35.58547,Corn,Top Soil,Moist,,5.77,19.3,20,1.01,60.7,NTu

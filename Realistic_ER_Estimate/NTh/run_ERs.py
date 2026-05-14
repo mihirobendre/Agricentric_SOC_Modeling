@@ -4,6 +4,7 @@ import pandas as pd
 from run_rothc import *
 
 
+
 #######################################
 #### BOLINDER CALCULATIONS C-INPUT ####
 #######################################
@@ -157,5 +158,9 @@ def run_ER_by_crop(
 
 	combined.to_excel(f"{coop}_{crop_type}_results.xlsx", index=False)
 
-	return combined["ERs (tCO2e/ha)"]
-
+	# Return project SOC, baseline SOC (converted to tCO2e/ha via ×44/12) and final ERs
+	return pd.DataFrame({
+		"SOC Baseline (tCO2e/ha)": combined["SOC Baseline (t/ha)"] * 44/12,
+		"SOC Project (tCO2e/ha)":  combined["SOC Project (t/ha)"]  * 44/12,
+		"ERs (tCO2e/ha)":          combined["ERs (tCO2e/ha)"],
+	})

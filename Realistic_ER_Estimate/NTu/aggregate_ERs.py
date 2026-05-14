@@ -1,8 +1,26 @@
-
 from run_ERs import *
 
-master_df = pd.DataFrame()
+# ─────────────────────────────────────────────
+# Helper: append a crop's results into master_df
+# Each crop gets three columns with a shared prefix:
+#   "<Crop> - SOC Baseline (tCO2e/ha)"
+#   "<Crop> - SOC Project (tCO2e/ha)"
+#   "<Crop> - ERs (tCO2e/ha)"
+# ─────────────────────────────────────────────
+def add_crop(master_df, crop, results):
+    # Normalise: run_ERs.py should return a DataFrame, but guard against
+    # a stale version that still returns a plain Series (ERs only).
+    if isinstance(results, pd.Series):
+        results = results.rename("ERs (tCO2e/ha)").to_frame()
+    for col in results.columns:
+        master_df[f"{crop} - {col}"] = results[col].values
+    return master_df
 
+
+# ══════════════════════════════════════════════
+# Cooperative: Kabianga
+# ══════════════════════════════════════════════
+master_df = pd.DataFrame()
 coop = "Kabianga"
 
 crop = "Tea"
@@ -12,19 +30,18 @@ results = run_ER_by_crop(
     moist_content = 1 - 1/4.5,
     harvest_index = 0.2,
     rs_ratio = 0.2,
-	manure = 0.5,
-	clay_content = 58.697,
-	soc_content = 137.050440,
-	bd_content = 1.033750,
-	fao_type = 'NTu',
-	coop = coop,
-	S_P = 0,
-	S_S = 1,
-	S_R = 1,
-	S_E = 1
+    manure = 0.5,
+    clay_content = 58.697,
+    soc_content = 137.050440,
+    bd_content = 1.033750,
+    fao_type = 'NTu',
+    coop = coop,
+    S_P = 0,
+    S_S = 1,
+    S_R = 1,
+    S_E = 1
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 crop = "Napier"
 results = run_ER_by_crop(
@@ -44,18 +61,16 @@ results = run_ER_by_crop(
     S_R = 1,
     S_E = 1
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 master_df.to_excel(f"aggregate_{coop}_results.xlsx", index=False)
 
 
-
-
-
-coop = "Kipsigis"
-
+# ══════════════════════════════════════════════
+# Cooperative: Kipsigis
+# ══════════════════════════════════════════════
 master_df = pd.DataFrame()
+coop = "Kipsigis"
 
 crop = "Tea"
 results = run_ER_by_crop(
@@ -73,19 +88,17 @@ results = run_ER_by_crop(
     S_P = 0,
     S_S = 1,
     S_R = 1,
-    S_E = 1 
+    S_E = 1
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 master_df.to_excel(f"aggregate_{coop}_results.xlsx", index=False)
 
 
-
-
-
+# ══════════════════════════════════════════════
+# Cooperative: Mumberes
+# ══════════════════════════════════════════════
 master_df = pd.DataFrame()
-
 coop = "Mumberes"
 
 crop = "Maize"
@@ -99,15 +112,14 @@ results = run_ER_by_crop(
     clay_content = 58.697,
     soc_content = 137.050440,
     bd_content = 1.033750,
-	fao_type = 'NTu',
-    coop = 'Mumberes',
+    fao_type = 'NTu',
+    coop = coop,
     S_P = 0,
     S_S = 1,
     S_R = 1,
     S_E = 1
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 crop = "Potato"
 results = run_ER_by_crop(
@@ -121,14 +133,12 @@ results = run_ER_by_crop(
     soc_content = 137.050440,
     bd_content = 1.033750,
     fao_type = 'NTu',
-	coop = 'Mumberes',
+    coop = coop,
     S_P = 0,
     S_S = 1,
     S_R = 1,
     S_E = 0
 )
-
-master_df[crop] = results
+master_df = add_crop(master_df, crop, results)
 
 master_df.to_excel(f"aggregate_{coop}_results.xlsx", index=False)
-
